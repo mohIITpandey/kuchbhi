@@ -11,7 +11,7 @@ public class Cparameter {
 public void checkBrowser() {
 	WebDriver driver;
 	String BROWSER=System.getProperty("browSer");
-	String Url=System.getProperty("Url");
+	String Url=System.getProperty("URL");
 	if(BROWSER.equalsIgnoreCase("chrome")) {
 		driver=new ChromeDriver();
 	}else if(BROWSER.equalsIgnoreCase("firefox")){
