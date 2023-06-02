@@ -21,8 +21,12 @@ public void checkBrowser() {
 	}else {
 		driver=new ChromeDriver();
 	}
+	System.out.println("mohitpandey------");
 	driver.get(Url);
+	System.out.println("mohitpandey------");
+
 	driver.close();
+	System.out.println("mohitpandey------");
  }
 }
 
