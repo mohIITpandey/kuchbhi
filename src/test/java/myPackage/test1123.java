@@ -1,5 +1,6 @@
 package myPackage;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class test1123 {
@@ -11,8 +12,5 @@ System.out.println("mohit");
 ////notificationNew
 	}
 
-@Test
-public void test1() {
-	System.out.println("mohmaya");
-}
+
 }
